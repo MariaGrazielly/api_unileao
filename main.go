@@ -20,5 +20,6 @@ func main() {
 }
 
 func Home(w http.ResponseWriter, r *http.Request) {
+	log.Println("Home ")
 	fmt.Fprint(w, "Aplication is running")
 }
